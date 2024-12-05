@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Form"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Linear Layout"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnOverlap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Overlap"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Radio Group"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Relative Layout"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
